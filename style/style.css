@@ -1,0 +1,218 @@
+/***************** Top *******************/
+#heading {
+    color: rgb(243, 235, 222);
+    text-align: center;
+    margin-right: 100px;
+}
+.nav-li {
+    display: inline;
+    float: none;
+    position: relative;
+    top: 50%;
+    left: 35%;
+    margin-left: 15px;
+    border: 2px solid blanchedalmond;
+    border-radius: 15px;
+    padding: 5px;
+    
+}
+.nav-li:hover {
+    padding: 10px;
+    color: rgb(180, 133, 70);
+    border-radius: 30px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    color: rgb(243, 235, 222);
+}
+a:hover {
+    color: inherit;
+}
+.nav-ul {
+    display: inline;
+   
+}
+.fs-60px {
+    font-size: 40px;
+}
+.fs-1-5em {
+    font-size:1em;
+}
+/***************** Top *******************/
+
+/************************ left-side ********************/
+
+#left-side-header {
+    color: rgb(243, 235, 222);
+    font-size: 2.5em;
+    border-left: 1px solid rgb(243, 235, 222);
+    border-right: 1px solid rgb(243, 235, 222);
+    text-align: center;
+}
+#left-side {
+    width: 200px;
+    height: 300px;
+    padding: 50px;
+    float: left;
+    margin-left: 60px;
+    
+    
+}
+.left-side-li {
+    margin-top: 30px;
+    border-bottom: 1px solid rgb(243, 235, 222);
+    width: 100px;
+    text-align: center;
+    padding: 3px;
+    color: rgb(243, 235, 222);
+    font-size: 20px;
+}
+#left-side-ul {
+    list-style-type: none;
+}
+
+.left-side-li:hover {
+    font-size: 25px;
+    border-bottom: 3px solid rgb(190, 136, 65);
+}
+
+
+/************************ left-side ********************/
+
+/******************  articles **************************/
+.articles {
+    float: left;
+    margin-top: 70px;
+    margin-left: 30px;
+    width: 400px;
+    text-align: center;
+    color: white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 30px;
+}
+
+
+/******************  articles **************************/
+
+/******************* Rigt-side **************************/
+#right-side-main {
+    float: left;
+}
+.right-side-picture {
+    width: 250px;
+    margin-left: 40px;
+    margin-top: 40px;
+    display: block;
+}
+
+
+
+/******************* Rigt-side **************************/
+
+/****************  RİO ***********/
+
+
+#container {
+    margin-top: 30px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: burlywood;
+    overflow: auto;
+    width: 700px;
+    height: 600px;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rio-pic {
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+
+  }
+
+#rio-articles {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    float: right;
+    text-indent: 30px;
+    letter-spacing: 0.5px;
+
+}
+#heading-countries {
+    border-bottom: 1px solid black;
+    width: 170px;
+    text-align: center;
+    float: right;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/****************  RİO ***********/
+/* Bogota */
+#bogoto-articles {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    float: right;
+    text-indent: 30px;
+    letter-spacing: 0.5px;
+}
+
+.bogoto-pic {
+    width: 300px;
+    display: block;
+    margin-left:auto ;
+    margin-right:auto ;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+
+/* Bogota */
+
+/* ketchikan */
+
+
+#ketchikan-articles {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    float: right;
+    text-indent: 30px;
+    letter-spacing: 0.5px;
+}
+.ketchikan-pic {
+    width: 300px;
+    display: block;
+    margin-left:auto ;
+    margin-right:auto ;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+/* ketchikan */
+
+/* Home */
+
+#home {
+    width: 40px;
+    height: 40px;
+    border-left: 2px solid burlywood;
+    border-right: 2px solid burlywood;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 3px;
+    border-radius: 30px;
+}
+.home-class {
+    color: burlywood;
+}
+
+
+/* Home */
